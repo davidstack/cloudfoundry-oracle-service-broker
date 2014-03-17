@@ -1,0 +1,22 @@
+services:
+    - name: oraclebroker
+      id: "d4a187c1-a94d-429c-ba70-b1b584d07ada"
+      description: "Oracle service for application development and testing"
+      tags:
+        - oracle
+        - relational
+      metadata: "mett"
+      bindable: true
+      provider: "inspur"
+      listing:
+         imageUrl: ~
+         blurb: "Oracle service for application development and testing"
+      plans:
+          - name: 2G
+            id: "5bfdf675-748b-4d66-9b5b-631b2f34efc1"
+            description: "Shared Oracle Server"
+            size: 2048M
+          - name: 5G
+            id: "5b4ef48a-2cde-4547-8d1b-9943db255cf1"
+            description: "Shared Oracle Server"
+            size: 5120M
